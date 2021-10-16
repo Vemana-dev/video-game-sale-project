@@ -1,0 +1,17 @@
+{
+  "name": "05a12c02e113f134",
+  "main": "05a12c02e113f134@654.js",
+  "version": "654.0.0",
+  "homepage": "https://observablehq.com/d/05a12c02e113f134",
+  "author": {
+    "name": "vemana vijaykumar",
+    "url": "https://observablehq.com/@veman154"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  },
+  "dependencies": {
+    "@observablehq/runtime": "^4.0.0"
+  }
+}
