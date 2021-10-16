@@ -3,7 +3,7 @@ import define2 from "./a2e58f97fd5e8d7c@669.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["vgsales.csv",new URL("../files/vgsales.csv",import.meta.url)]]);
+  const fileAttachments = new Map([["vgsales.csv",new URL("./vgsales.csv",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# Video Game Sales
